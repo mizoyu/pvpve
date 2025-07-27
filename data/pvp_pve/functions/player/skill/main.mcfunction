@@ -70,6 +70,15 @@ execute as @a[tag=slave] at @s run title @s actionbar [\
 {"text":"　スキル3　"},{"score":{"name":"@s","objective":"skill3_recast"},"color":"green"},\
 {"text":"　スキル4　"},{"score":{"name":"@s","objective":"skill4_recast"},"color":"green"}]
 
+<<<<<<< HEAD
+=======
+execute as @a[tag=filip_fire] at @s run title @s actionbar [\
+{"text":"スキル1　"},{"score":{"name":"@s","objective":"skill1_recast"},"color":"green"},\
+{"text":"　スキル2　"},{"score":{"name":"@s","objective":"skill2_recast"},"color":"green"},\
+{"text":"　スキル3　"},{"score":{"name":"@s","objective":"skill3_recast"},"color":"green"},\
+{"text":"　スキル4　"},{"score":{"name":"@s","objective":"skill4_recast"},"color":"green"}]
+
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 
 #red_mist_skill2
 function pvp_pve:player/skill/red_mist/02red_mist_skill_main
@@ -110,6 +119,12 @@ function pvp_pve:player/skill/marl_ice/marl_ice_main
 #slave
 function pvp_pve:player/skill/slave/slave_main
 
+<<<<<<< HEAD
+=======
+#filip_fire
+function pvp_pve:player/skill/filip_fire/filip_fire_main
+
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 #ガチャ
 execute as @e[type=item,nbt={Item:{tag:{display:{Name:'"ガチャ券[コモン]"',Lore:['"投げて使用できる"']}}}}] at @s run loot give @p loot pvp_pve:item/level_select/gacha_nakami/common_item
 execute as @e[type=item,nbt={Item:{tag:{display:{Name:'"ガチャ券[コモン]"',Lore:['"投げて使用できる"']}}}}] at @s run kill @s

@@ -16,6 +16,10 @@ tag @p add slave
 
 
 #passive
+<<<<<<< HEAD
 
+=======
+scoreboard players set @p skill4_recast 200
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 
 ##attribute

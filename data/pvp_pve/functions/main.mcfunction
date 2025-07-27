@@ -15,7 +15,11 @@ function pvp_pve:enemy/summon_group/eg_main
 ##
 
 ##gate
+<<<<<<< HEAD
 execute as @e[tag=gate_tp] at @s run particle witch ~ ~1 ~ 0.2 1 0.2 1 3
+=======
+execute as @e[tag=gate_tp] at @s run particle witch ~ ~1 ~ 0.2 1 0.2 1 10
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 execute as @e[tag=gate_90] at @s run tp @a[distance=..1] ~ ~90 ~
 
 ##glass_bin

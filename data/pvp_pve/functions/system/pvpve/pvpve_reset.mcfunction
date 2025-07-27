@@ -3,6 +3,7 @@
 ##初期スポ
 
 kill @e[tag=egc_random]
+kill @e[tag=eg_set]
 
 execute if score Timer pvpve_field matches 1 run function pvp_pve:system/pvpve/coordinate_ememy/reset1
 

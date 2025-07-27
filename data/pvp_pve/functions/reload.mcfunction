@@ -29,6 +29,10 @@ execute as @a[tag=alchemist] at @s run function pvp_pve:player/job_item_get/relo
 execute as @a[tag=timer_finance] at @s run function pvp_pve:player/job_item_get/reload_job/timer_finance
 execute as @a[tag=marl_ice] at @s run function pvp_pve:player/job_item_get/reload_job/marl_ice_item_get
 execute as @a[tag=slave] at @s run function pvp_pve:player/job_item_get/reload_job/slave_item_get
+<<<<<<< HEAD
+=======
+execute as @a[tag=filip_fire] at @s run function pvp_pve:player/job_item_get/reload_job/filip_fire
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 
 #scoreboard
 scoreboard objectives add tem dummy
@@ -58,6 +62,7 @@ scoreboard players set @a skill1_recast 0
 scoreboard players set @a skill2_recast 0
 scoreboard players set @a skill3_recast 0
 scoreboard players set @a skill4_recast 0
+#scoreboard players set @a[tag=filip_fire] skill4_recast 200
 scoreboard players set @a skill5_recast 0
 scoreboard players set @a skill6_recast 0
 ###tester_skill
@@ -142,6 +147,18 @@ scoreboard objectives add slave_skill1_cnt dummy
 scoreboard players set @a slave_skill1_cnt 0
 scoreboard objectives add slave_skill4 dummy
 scoreboard players set @a slave_skill4 0
+<<<<<<< HEAD
+=======
+#filip_fire
+scoreboard objectives add negire_filip dummy
+scoreboard players set @a negire_filip 0
+scoreboard objectives add filip_skill1 dummy
+scoreboard players set @a filip_skill1 0
+scoreboard objectives add filip_skill1_2 dummy
+scoreboard players set @a filip_skill1_2 0
+scoreboard objectives add filip_skill2_1 dummy
+scoreboard objectives add filip_skill2_2 dummy
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 ###passive
 scoreboard objectives add kill_count totalKillCount
 scoreboard players set @a kill_count 0
@@ -166,6 +183,8 @@ scoreboard objectives add Team playerKillCount
 scoreboard objectives setdisplay sidebar Team
 scoreboard players set @a Team 0
 ###enemy
+####bomaaa
+scoreboard objectives add bommar_cnt dummy
 ####devour
 scoreboard objectives add devour_summon_cnt dummy
 scoreboard objectives add devour_skill dummy

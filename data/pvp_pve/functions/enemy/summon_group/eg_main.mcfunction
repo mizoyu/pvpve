@@ -21,7 +21,11 @@ execute as @e[type=armor_stand,tag=pvpve2_house7] at @s run execute if entity @a
 execute as @e[type=armor_stand,tag=pvpve2_house8] at @s run execute if entity @a[distance=..15,gamemode=adventure] run function pvp_pve:enemy/summon_group/pvpve_2/house8
 
 ##dungeon
+<<<<<<< HEAD
 execute as @e[type=armor_stand,tag=pvpve2_hier_set] at @s run execute if entity @a[distance=..15,gamemode=adventure] run function pvp_pve:enemy/summon_group/pvpve_2/field2_dungeon/hier1
+=======
+execute as @e[type=armor_stand,tag=pvpve2_hier_set] at @s run execute if entity @a[distance=..15,gamemode=adventure] run function pvp_pve:enemy/summon_group/pvpve_2/field2_dungeon/hier_set
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 execute as @e[type=armor_stand,tag=pvpve2_hier1] at @s run execute if entity @a[distance=..3,gamemode=adventure] run function pvp_pve:enemy/summon_group/pvpve_2/field2_dungeon/hier1
 execute as @e[type=armor_stand,tag=pvpve2_hier2] at @s run execute if entity @a[distance=..5,gamemode=adventure] run function pvp_pve:enemy/summon_group/pvpve_2/field2_dungeon/hier2
 execute as @e[type=armor_stand,tag=pvpve2_hier3] at @s run execute if entity @a[distance=..5,gamemode=adventure] run function pvp_pve:enemy/summon_group/pvpve_2/field2_dungeon/hier3

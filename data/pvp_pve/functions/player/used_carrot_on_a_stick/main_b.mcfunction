@@ -89,6 +89,15 @@ execute if predicate pvp_pve:selecteditem/slave_skill/02slave_skill run function
 execute if predicate pvp_pve:selecteditem/slave_skill/03slave_skill run function pvp_pve:player/skill/slave/skill_check/03skill_check
 execute if predicate pvp_pve:selecteditem/slave_skill/04slave_skill run function pvp_pve:player/skill/slave/skill_check/04skill_check
 
+<<<<<<< HEAD
+=======
+##filip_fire
+execute if predicate pvp_pve:selecteditem/filip_fire_skill/01filip_fire_skill run function pvp_pve:player/skill/filip_fire/skill_check/01skill_check
+execute if predicate pvp_pve:selecteditem/filip_fire_skill/02filip_fire_skill run function pvp_pve:player/skill/filip_fire/skill_check/02skill_check
+execute if predicate pvp_pve:selecteditem/filip_fire_skill/03filip_fire_skill run function pvp_pve:player/skill/filip_fire/skill_check/03skill_check
+execute if predicate pvp_pve:selecteditem/filip_fire_skill/04filip_fire_skill run function pvp_pve:player/skill/filip_fire/skill_check/04skill_check
+
+>>>>>>> d69b4d8f91eafac47f963a0f74703a6fa1fc258b
 
 #スコアボードリセット
 scoreboard players reset @s used_carrot_on_a_stick
