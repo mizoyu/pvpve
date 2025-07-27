@@ -6,6 +6,7 @@ kill @e[tag=point_gold]
 kill @e[tag=skill_e]
 kill @e[team=Enemy]
 kill @e[type=item]
+kill @e[tag=gate_tp]
 spawnpoint @a 0 -60 0
 forceload remove all
 forceload add 0 0
@@ -27,6 +28,7 @@ execute as @a[tag=zauberkugel] at @s run function pvp_pve:player/job_item_get/re
 execute as @a[tag=alchemist] at @s run function pvp_pve:player/job_item_get/reload_job/alchemist_item_get
 execute as @a[tag=timer_finance] at @s run function pvp_pve:player/job_item_get/reload_job/timer_finance
 execute as @a[tag=marl_ice] at @s run function pvp_pve:player/job_item_get/reload_job/marl_ice_item_get
+execute as @a[tag=slave] at @s run function pvp_pve:player/job_item_get/reload_job/slave_item_get
 
 #scoreboard
 scoreboard objectives add tem dummy
@@ -135,6 +137,11 @@ scoreboard objectives add marl_skill2_par dummy
 scoreboard objectives add marl_skill3_cnt dummy
 scoreboard objectives add marl_skill3_tick dummy
 scoreboard objectives add marl_skill4_cnt dummy
+#slave
+scoreboard objectives add slave_skill1_cnt dummy
+scoreboard players set @a slave_skill1_cnt 0
+scoreboard objectives add slave_skill4 dummy
+scoreboard players set @a slave_skill4 0
 ###passive
 scoreboard objectives add kill_count totalKillCount
 scoreboard players set @a kill_count 0
@@ -216,6 +223,13 @@ scoreboard objectives add winner_cnt_1 dummy
 scoreboard players set Timer winner_cnt_1 0
 #1:舞倉市,2:島
 scoreboard objectives add pvpve_field dummy
+##field2_dungeon
+scoreboard objectives add hier_1_cnt dummy
+scoreboard players set Timer hier_1_cnt 0
+scoreboard objectives add hier_2_cnt dummy
+scoreboard players set Timer hier_2_cnt 0
+scoreboard objectives add hier_3_cnt dummy
+scoreboard players set Timer hier_3_cnt 0
 
 #game_score
 scoreboard players set 1:Red_team pvpve 0

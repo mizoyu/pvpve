@@ -83,5 +83,12 @@ execute if predicate pvp_pve:selecteditem/marl_ice_skill/02marl_ice_skill run fu
 execute if predicate pvp_pve:selecteditem/marl_ice_skill/03marl_ice_skill run function pvp_pve:player/skill/marl_ice/skill_check/03skill_check
 execute if predicate pvp_pve:selecteditem/marl_ice_skill/04marl_ice_skill run function pvp_pve:player/skill/marl_ice/skill_check/04skill_check
 
+##slave
+execute if predicate pvp_pve:selecteditem/slave_skill/01slave_skill run function pvp_pve:player/skill/slave/skill_check/01skill_check
+execute if predicate pvp_pve:selecteditem/slave_skill/02slave_skill run function pvp_pve:player/skill/slave/skill_check/02skill_check
+execute if predicate pvp_pve:selecteditem/slave_skill/03slave_skill run function pvp_pve:player/skill/slave/skill_check/03skill_check
+execute if predicate pvp_pve:selecteditem/slave_skill/04slave_skill run function pvp_pve:player/skill/slave/skill_check/04skill_check
+
+
 #スコアボードリセット
 scoreboard players reset @s used_carrot_on_a_stick

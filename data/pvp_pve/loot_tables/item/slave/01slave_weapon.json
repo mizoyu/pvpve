@@ -6,14 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name":"minecraft:crossbow",
+          "name":"minecraft:stick",
           "functions": [
             {
                 "function": "minecraft:set_name",
                 "entity": "this",
                 "name": [
                     {
-                        "text": "ワルキューレ",
+                        "text": "棍棒",
                         "color": "white",
                         "italic": false
                     }
@@ -25,14 +25,14 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 5,
+                  "amount": 6,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "",
-                  "amount": -2.7,
+                  "amount": -2.4,
                   "operation": "addition",
                   "slot": "mainhand"
                 }
@@ -40,7 +40,7 @@
             },
             {
                 "function": "set_nbt",
-                "tag": "{Unbreakable:true,Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}]}"
+                "tag": "{Unbreakable:true}"
             }
           ]
         }
